@@ -1,15 +1,13 @@
 noseX=0;
 noseY=0;
-
-// Primeiro definimos uma função preload() 
+ 
 function preload() {
   clown_nose = loadImage('https://i.postimg.cc/brWYfK1P/narix.png');
 }
 
-// Vamos criar uma função setup() e dentro dela criamos uma canvas (tela)
 function setup() {
   canvas = createCanvas(300, 300);
-  // colocaremos canvas no centro da página usando
+  
   canvas.center();
   video = createCapture(VIDEO);
   video.size(300, 300);
