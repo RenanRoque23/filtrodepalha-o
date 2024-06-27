@@ -2,7 +2,7 @@ nozeX=0;
 nozeY=0;
 
 function preload(){
-    clown_nose = loadImage('https://i.postimg.cc/3Rk68XVS/nariz.webp')
+    clown_nose = loadImage('https://i.postimg.cc/brWYfK1P/narix.png')
 }
 
 function setup(){
@@ -35,7 +35,7 @@ function draw(){
 }
 
 function take_snapshot(){
-    save('nariz.png');
+    save('narix.png');
 }
 
 
